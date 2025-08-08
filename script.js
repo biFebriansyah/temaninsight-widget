@@ -34,6 +34,6 @@ document.getElementById("saveBtn").addEventListener("click", () => {
   if (!clientKey) {
     alert("'data-client-key' not found")
   } else {
-    loadWidget(key)
+    loadWidget(clientKey)
   }
 })
